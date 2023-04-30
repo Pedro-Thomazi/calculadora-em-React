@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(45deg, #00C2E5, #0C57F2);
+
+    height: 100vh;
+}
+.calculadora{
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.342);
+
+    height: 300px;
+    width: calc(600px - 75px);
+
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+
+.telaCalculadora{
+    background-color: #000000;
+    color: #ffffff;
+
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.telaValor{
+    font-size: 1.5rem;
+}
+
+.telaRes{
+    font-size: 3rem;
+}
+
+.botoes{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btnCss{
+    height: 70px;
+    width: 75px;
+
+    font-size: 25px;
+
+    background-color: #ffffff;
+    color: #000000;
+
+    border: 1px solid black;
+}
+.btnCssOper{
+    height: 70px;
+    width: 75px;
+
+    font-size: 25px;
+
+    background-color: #c0c0c0;
+    color: #000000;
+
+    border: 1px solid black;
+}
+.btnCssOper:active{
+    background-color: #9c9c9c;
+}
+
+.btnCss:active{
+    background-color: #c5c5c5;
+}
+
+.btnIgual{
+    height: 70px;
+    width: 75px;
+
+    font-size: 25px;
+
+    background-color: #5a8aeb;
+    color: #000000;
+
+    border: 1px solid black;
+}
