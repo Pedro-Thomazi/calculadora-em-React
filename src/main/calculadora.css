@@ -1,16 +1,18 @@
 body{
-    background-image: linear-gradient(45deg, #00C2E5, #0C57F2);
-
-    height: 100vh;
+    /* background-image: linear-gradient(45deg, #00C2E5, #0C57F2); */
+    background: url('../image/fundo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
 }
 .calculadora{
+    position: relative;
     /* border: 1px solid black; */
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.342);
-
-    height: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.322);
+    height: 450px;
     width: calc(600px - 75px);
-
     margin: auto;
+    border-radius: 10px;
 }
 h1{
     text-align: center;
@@ -18,7 +20,7 @@ h1{
 
 
 .telaCalculadora{
-    background-color: #000000;
+    background-color: #9494945d;
     color: #ffffff;
 
     height: 100px;
@@ -86,4 +88,16 @@ h1{
     color: #000000;
 
     border: 1px solid black;
+}
+
+.comandos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background: #ccc;
 }
